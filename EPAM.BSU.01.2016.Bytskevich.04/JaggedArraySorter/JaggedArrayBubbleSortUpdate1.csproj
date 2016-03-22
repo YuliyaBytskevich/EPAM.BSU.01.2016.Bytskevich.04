@@ -46,6 +46,9 @@
   <ItemGroup>
     <Compile Include="JaggedArrayBubbleSorter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortByLineMaxValues.cs" />
+    <Compile Include="SorterByLineSums.cs" />
+    <Compile Include="SortingByLineAbsValues.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
