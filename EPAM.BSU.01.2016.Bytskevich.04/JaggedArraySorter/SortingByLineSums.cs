@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace JaggedArraySorter
 {
-    public class SortByLineMaxValues: JaggedArrayBubbleSorter
+    public class SortingByLineSums: JaggedArrayBubbleSorter
     {
         public override int GetLineParameter(int[] arrayLine)
         {
-            int maxAbs = -1;
+            int sum = 0;
             foreach (int number in arrayLine)
             {
-                if (number > maxAbs)
-                    maxAbs = number;
+                sum += number;
             }
-            return maxAbs;
+            return sum;
         }
     }
 }

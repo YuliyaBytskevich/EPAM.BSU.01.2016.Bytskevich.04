@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShapes", "Geometri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrayBubbleSortUpdate1", "JaggedArraySorter\JaggedArrayBubbleSortUpdate1.csproj", "{F17FF496-9896-4D95-903D-740E0E44C9DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrayBubbleSortUpdate2", "JaggedArrayBubbleSortUpdate2\JaggedArrayBubbleSortUpdate2.csproj", "{C421D0AC-2C03-429E-B37D-73EF60176D01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F17FF496-9896-4D95-903D-740E0E44C9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F17FF496-9896-4D95-903D-740E0E44C9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F17FF496-9896-4D95-903D-740E0E44C9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C421D0AC-2C03-429E-B37D-73EF60176D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C421D0AC-2C03-429E-B37D-73EF60176D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C421D0AC-2C03-429E-B37D-73EF60176D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C421D0AC-2C03-429E-B37D-73EF60176D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

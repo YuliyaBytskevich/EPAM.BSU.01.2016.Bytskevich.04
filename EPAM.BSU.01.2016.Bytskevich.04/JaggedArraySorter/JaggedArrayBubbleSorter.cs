@@ -22,7 +22,7 @@ namespace JaggedArraySorter
             for (int i = 0; i < source.Length; i++)
             {
                 jaggedArrLines[i].parameter = GetLineParameter(source[i]);
-                jaggedArrLines[i].lineAddress = source[i];
+                jaggedArrLines[i].lineAddress = source[i]; 
             }
             bool thereWerePermutations = true;
             for (int i = 0; (i < source.Length - 1) && thereWerePermutations; i++)
