@@ -17,22 +17,14 @@ namespace GeometricShapes
             this.edge = edge;
         }
 
-        public override double GetPerimeter(int? precision)
+        public override double GetPerimeter()
         {
-            double perimeter = edge*4;
-            if (precision == null)
-                return perimeter;
-            else
-                return Math.Round(perimeter, precision.Value);
+            return edge*4;
         }
 
-        public override double GetSquare(int? precision)
+        public override double GetSquare()
         {
-            double square = edge * edge;
-            if (precision == null)
-                return square;
-            else
-                return Math.Round(square, precision.Value);
+            return edge * edge;
         }
     }
 }
